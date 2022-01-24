@@ -1,0 +1,18 @@
+get this file
+https://dl.google.com/dl/edgedl/chromeos/recovery/linux_recovery.sh
+
+access in browser to https://dl.google.com/dl/edgedl/chromeos/recovery/recovery.conf?source=linux_recovery.sh
+
+goto your  terminal
+
+command is {cat ~/recovery | grep (your chromebook modelname)}
+
+inyour browser https://xxxxxx
+
+dl stable firmware
+
+xxx.bin.zip
+
+unzip xxx.bin.zip
+
+dd bs=4194304 of=/dev/(yourdevice) if=(xxx.bin) conv=sync
